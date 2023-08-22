@@ -19,6 +19,7 @@ The App expects a Postgresql localhost server running on port 5432
 Change the Database Name, username and password to required values, in the same file to your Postgresql values.
 In this same file, the field: "spring.jpa.hibernate.ddl-auto" is specified as update, which means it will retain old values stored in the table with this name, if any such table is present before. Set its value to create to create a new table everytime the app is run.
 
+```
 # Rest Api Mapping:
 The Api's are as follows: 
 In the file: "springrest/src/main/java/com/springrest/springrest/controller/MyController.java"
@@ -26,7 +27,6 @@ In the file: "springrest/src/main/java/com/springrest/springrest/controller/MyCo
 ## 1. GET Mapping "localhost:8082/allloads"
 This would return all load values present in the load table of liveeasy_logistics database
 Example: 
-```
 [
     {
         "loadingPoint": "california",
