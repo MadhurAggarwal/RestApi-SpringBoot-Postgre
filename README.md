@@ -19,12 +19,12 @@ The App expects a Postgresql localhost server running on port 5432
 Change the Database Name, username and password to required values, in the same file to your Postgresql values.
 In this same file, the field: "spring.jpa.hibernate.ddl-auto" is specified as update, which means it will retain old values stored in the table with this name, if any such table is present before. Set its value to create to create a new table everytime the app is run.
 
-```
 # Rest Api Mapping:
 The Api's are as follows: 
 In the file: "springrest/src/main/java/com/springrest/springrest/controller/MyController.java"
 
 ## 1. GET Mapping "localhost:8082/allloads"
+```
 This would return all load values present in the load table of liveeasy_logistics database
 Example: 
 [
@@ -46,11 +46,12 @@ Example:
         ....
     },
  ....
-] ```
-
+] 
+```
 ## 2. GET "localhost:8082/load?shipperId=145"
+```
 This is request mapping using the query paramter. It returns a list of all loads with specified shipper Id
-Example: ```
+Example:
 [
     {
         "loadingPoint": "delhi",
@@ -76,10 +77,12 @@ Example: ```
         "loadId": 47,
         "date": "01-02-2022"
     }
-] ```
+]
+```
 ## 3. GET "localhost:8082/load/92"
+```
 This would return single load with unique Id specfied.
-Example: ```
+Example:
 {
     "loadingPoint": "california",
     "unloadingPoint": "silicon-valley",
@@ -91,11 +94,12 @@ Example: ```
     "shipperId": 400,
     "loadId": 92,
     "date": "14-06-2024"
-} ```
-
+}
+```
 ## 4. POST "localhost:8082/load"
+```
 This adds the data from the raw json body of the query to the database
-Example: ```
+Example:
 {
     "loadingPoint": "jalandhar",
     "unloadingPoint": "ludhiana",
@@ -107,9 +111,10 @@ Example: ```
     "shipperId": 147,
     "loadId": 11,
     "date": "23-04-2021"
-} ```
-
+}
+```
 ## 5. PUT "localhost:8082/load/93"
+```
 It updates the value of the specified load.
 (Load Id may not be provided in the raw json body, it will get it from link)
 If date is not specified, it takes current date as default.
@@ -126,8 +131,13 @@ Example: ```
     "shipperId": 111,
     "loadId": 93,
     "date": "25-12-2020"
-} ```
+}
+```
 
 ## 6. DELETE "localhost:8082/load/93"
+```
 This will delete the load with the given Id.
+```
 
+The file: "springrest/src/main/java/com/springrest/springrest/entities/RandomTestData.txt"
+contains some basic load values you can try on.
