@@ -1,0 +1,63 @@
+{   "loadingPoint": "new-york",
+    "unloadingPoint": "tokyo",
+    "productType": "tesla",
+    "truckType": "electricPower",
+    "noOfTrucks": 12,
+    "weight": 500,
+    "comment": "",
+    "shipperId": 100,
+    "loadId": 93,
+    "date": "14-06-2024"
+}
+
+{
+    "loadingPoint": "california",
+    "unloadingPoint": "silicon-valley",
+    "productType": "iphones",
+    "truckType": "siliconTransport",
+    "noOfTrucks": 7,
+    "weight": 120,
+    "comment": "",
+    "shipperId": 400,
+    "loadId": 92,
+    "date": "14-06-2024"
+}
+
+{
+    "loadingPoint": "delhi",
+    "unloadingPoint": "jaipur",
+    "productType": "chemicals",
+    "truckType": "canter",
+    "noOfTrucks": 1,
+    "weight": 100,
+    "comment": "",
+    "shipperId": 145,
+    "loadId": 23,
+    "date": "22-08-2023"
+}
+
+{
+    "loadingPoint": "mumbai",
+    "unloadingPoint": "delhi",
+    "productType": "snacks",
+    "truckType": "indian",
+    "noOfTrucks": 2,
+    "weight": 150,
+    "comment": "",
+    "shipperId": 145,
+    "loadId": 47,
+    "date": "01-02-2022"
+}
+
+{
+    "loadingPoint": "jalandhar",
+    "unloadingPoint": "ludhiana",
+    "productType": "books",
+    "truckType": "american",
+    "noOfTrucks": 5,
+    "weight": 15,
+    "comment": "",
+    "shipperId": 147,
+    "loadId": 11,
+    "date": "23-04-2021"
+}
