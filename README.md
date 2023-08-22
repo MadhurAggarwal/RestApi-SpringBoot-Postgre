@@ -25,7 +25,8 @@ In the file: "springrest/src/main/java/com/springrest/springrest/controller/MyCo
 
 ## 1. GET Mapping "localhost:8082/allloads"
 This would return all load values present in the load table of liveeasy_logistics database
-Example: ```
+Example: 
+```
 [
     {
         "loadingPoint": "california",
@@ -42,39 +43,9 @@ Example: ```
     {
         "loadingPoint": "delhi",
         "unloadingPoint": "jaipur",
-        "productType": "chemicals",
-        "truckType": "canter",
-        "noOfTrucks": 1,
-        "weight": 100,
-        "comment": "",
-        "shipperId": 145,
-        "loadId": 23,
-        "date": "22-08-2023"
+        ....
     },
-    {
-        "loadingPoint": "mumbai",
-        "unloadingPoint": "delhi",
-        "productType": "snacks",
-        "truckType": "indian",
-        "noOfTrucks": 2,
-        "weight": 150,
-        "comment": "",
-        "shipperId": 145,
-        "loadId": 47,
-        "date": "01-02-2022"
-    },
-    {
-        "loadingPoint": "new-york",
-        "unloadingPoint": "tokyo",
-        "productType": "tesla",
-        "truckType": "electricPower",
-        "noOfTrucks": 12,
-        "weight": 500,
-        "comment": "",
-        "shipperId": 100,
-        "loadId": 93,
-        "date": "14-06-2024"
-    }
+ ....
 ] ```
 
 ## 2. GET "localhost:8082/load?shipperId=145"
