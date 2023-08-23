@@ -3,8 +3,7 @@
 # About
 This is an Assignment for LiveEasy Logistics.
 
-I've used Spring-Boot and Maven to create RestApi
-The App connects to the Postgresql Database.
+I've used Spring-Boot and Maven to create Rest APIs which connect to a Postgresql Database.
 
 # To Run
 Clone the Repository
