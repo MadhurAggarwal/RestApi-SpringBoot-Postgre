@@ -127,7 +127,7 @@ It updates the value of the specified load.
 (Load Id may not be provided in the raw json body, it will get it from link)
 If date is not specified, it takes current date as default.
 Also, if load with given ID does not exists, it will simply add it.
-Example: ```
+Example:
 {
     "loadingPoint": "paris",
     "unloadingPoint": "china",
