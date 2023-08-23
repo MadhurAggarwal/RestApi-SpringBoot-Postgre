@@ -2,21 +2,29 @@
 
 # About
 This is an Assignment for LiveEasy Logistics.
+
 I've used Spring-Boot and Maven to create RestApi
 The App connects to the Postgresql Database.
 
 # To Run
 Clone the Repository
+
 Open it (ensure you have maven installed). The dependencies specified in "springrest/pom.xml" will automatically install
+
 After the dependencies are installed, you can either:
+
 1. Run the outermost springrest folder as a Spring Boot App in STS
 2. Or, Run java file: "springrest/src/main/java/com/springrest/springrest/SpringrestApplication.java"
 
 # Ports & other configurations
 The App would send requests on port 8082.
+
 Change the port to whatever is required by specifying it in server.port value at top of the "springrest/src/main/resources/application.properties" file
+
 The App expects a Postgresql localhost server running on port 5432 
+
 Change the Database Name, username and password to required values, in the same file to your Postgresql values.
+
 In this same file, the field: "spring.jpa.hibernate.ddl-auto" is specified as update, which means it will retain old values stored in the table with this name, if any such table is present before. Set its value to create to create a new table everytime the app is run.
 
 # Rest Api Mapping:
