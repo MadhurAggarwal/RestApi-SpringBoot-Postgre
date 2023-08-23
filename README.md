@@ -8,7 +8,7 @@ I've used Spring-Boot and Maven to create Rest APIs which connect to a Postgresq
 # To Run
 Clone the Repository
 
-Open it (ensure you have maven installed). The dependencies specified in "springrest/pom.xml" will automatically install
+Import it (ensure you have maven installed). The dependencies specified in "springrest/pom.xml" will automatically install. (or, use mvn install command to install the dependencies)
 
 After the dependencies are installed, you can either:
 
