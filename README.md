@@ -28,8 +28,9 @@ Change the Database Name, username and password to required values, in the same 
 In this same file, the field: "spring.jpa.hibernate.ddl-auto" is specified as update, which means it will retain old values stored in the table with this name, if any such table is present before. Set its value to create to create a new table everytime the app is run.
 
 # Rest Api Mapping:
-The Api's are as follows: 
 In the file: "springrest/src/main/java/com/springrest/springrest/controller/MyController.java"
+
+The Api's are as follows: 
 
 ## 1. GET Mapping "localhost:8082/allloads"
 ```
