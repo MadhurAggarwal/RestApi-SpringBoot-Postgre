@@ -1,7 +1,5 @@
 # RestApi-SpringBoot-Postgre
 
-# About
-This is an Assignment for LiveEasy Logistics.
 
 I've used Spring-Boot and Maven to create Rest APIs which connect to a Postgresql Database.
 
